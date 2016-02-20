@@ -1,0 +1,40 @@
+ABOUT
+-------------------------------------------------------------------------
+
+This is a python telegram bot made to help with dota2 related stuff [WIP]
+
+INFO - SETUP
+-------------------------------------------------------------------------
+
+Create a directory for the project
+$ mkdir dota2bot
+
+Install virtualenv (if not already installed)
+$ sudo pip install virtualenv
+
+Go to directory and create a virtual environment
+$ cd dota2bot
+$ virtualenv bot
+
+Activate virtualenv
+$ source bot/bin/activate
+
+Now pull latest code
+$ git clone https://github.com/D00mSlayer/dota2-tg-bot.git
+
+Go to the directory
+$ cd dotabot
+
+Install necessary packages
+$ pip install -r requirements.txt
+
+Run the bot
+$ python bot.py
+
+If you are facing issues, just run
+$ pip install pytelegrambotapi --upgrade
+$ python bot.py
+
+Use your own telegram bot API retreived from @BotFather
+
+NOTE: Compatible with python-v2.7
